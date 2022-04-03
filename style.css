@@ -139,8 +139,6 @@ main {
 
 /* Carousel */
 .ia__carousel{
-    width:100%;
-    height:600px;
     overflow:hidden;
 }
 
@@ -510,9 +508,12 @@ MEDIA QUERIES
     header{
         grid-template-columns:10% 90%;
     }
+}
 
-    header h1{
-        display:none;
+@media screen and (max-width:991px){
+    .ia__navMenu ul{
+        flex-direction: column;
+        align-items:flex-end;
     }
 }
 
@@ -567,13 +568,6 @@ MEDIA QUERIES
 
     .textMagenta{
         display:none;
-    }
-}
-
-@media screen and (max-width:767px){
-    .ia__navMenu ul{
-        flex-direction: column;
-        align-items:flex-end;
     }
 }
 
