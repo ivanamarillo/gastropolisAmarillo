@@ -455,6 +455,9 @@ footer {
     padding:20px;
 }
 
+.footerBlock .ia__footerBlock-list{
+}
+
 .footerBlock li {
     padding:10px 0;
     list-style:none;

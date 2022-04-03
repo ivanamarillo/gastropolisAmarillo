@@ -61,11 +61,11 @@
             </button>
           </div>
         <!-- ranking de restaurantes-->
-        <div>
-            <div>
+        <div class="restaurant">
+            <div class="mainFoto">
                 <img src="./images/restaurant_1.jpg" alt="foto del restaurante 1">
             </div>
-            <div>
+            <div class="restaurantInfo">
                 <h2>Restaurant # 1</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                    Vel quisquam libero est cumque aperiam? Animi est reprehenderit cum
@@ -75,7 +75,7 @@
                    at assumenda reiciendis rem, corporis commodi possimus aliquam vel
                    illo veritatis quis.</p>
             </div>
-            <div>
+            <div class="rankingSocial">
                 <div>
                     <h3>reviews</h3>
                     <i class="fa-solid fa-star"></i>
@@ -87,9 +87,9 @@
                 </div>
                 <div>
                     <h3>precio</h3>
-                    <i class="fa-solid fa-dollar-sign"></i>
-                    <i class="fa-solid fa-dollar-sign"></i>
-                    <i class="fa-solid fa-dollar-sign"></i>
+                    <i class="fa-solid fa-dollar-sign full"></i>
+                    <i class="fa-solid fa-dollar-sign full"></i>
+                    <i class="fa-solid fa-dollar-sign empty"></i>
                 </div>
                 <div>
                     <h3>redes</h3>
@@ -98,7 +98,7 @@
                     <i class="fa-brands fa-facebook"></i>
                 </div>
             </div>
-            <div>
+            <div class="dishes">
                 <h3>recomendados</h3>
                 <div>
                     <img src="./images/restaurant_1_dish_1.jpg" alt="foto del plato recomendado 1">
@@ -109,11 +109,11 @@
                 </div>
             </div>
         </div>
-        <div>
-            <div>
+        <div class="restaurant">
+            <div class="mainFoto">
                 <img src="./images/restaurant_2.jpg" alt="foto del restaurante 2">
             </div>
-            <div>
+            <div class="restaurantInfo">
                 <h2>Restaurant # 2</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                    Vel quisquam libero est cumque aperiam? Animi est reprehenderit cum
@@ -123,8 +123,8 @@
                    at assumenda reiciendis rem, corporis commodi possimus aliquam vel
                    illo veritatis quis.</p>
             </div>
-            <div>
-                <div>
+            <div class="rankingSocial">
+                <div class="reviews">
                     <h3>reviews</h3>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -133,20 +133,20 @@
                     <i class="fa-solid fa-star-half-stroke"></i>
                     <p>1.205</p>
                 </div>
-                <div>
+                <div class="precio">
                     <h3>precio</h3>
-                    <i class="fa-solid fa-dollar-sign"></i>
-                    <i class="fa-solid fa-dollar-sign"></i>
-                    <i class="fa-solid fa-dollar-sign"></i>
+                    <i class="fa-solid fa-dollar-sign full"></i>
+                    <i class="fa-solid fa-dollar-sign full"></i>
+                    <i class="fa-solid fa-dollar-sign full"></i>
                 </div>
-                <div>
+                <div class="redes">
                     <h3>redes</h3>
                     <i class="fa-solid fa-link"></i>
                     <i class="fa-brands fa-instagram"></i>
                     <i class="fa-brands fa-facebook"></i>
                 </div>
             </div>
-            <div>
+            <div class="dishes">
                 <h3>recomendados</h3>
                 <div>
                     <img src="./images/restaurant_2_dish_1.jpg" alt="foto del plato recomendado 1">
@@ -304,9 +304,10 @@
         <hr class="footerHr">
     </main>
     <footer>
+        <!-- Footer Bootstrap -->
         <div class="footerBlock">
             <h3>siguenos en redes</h3>
-            <ul>
+            <ul class="list-group list-group-flush ia__footerBlock-list">
                 <a href="https://www.facebook.com/" target="_blank"><li>facebook</li></a>
                 <a href="https://www.instagram.com/" target="_blank"><li>instagram</li></a>
                 <a href="https://www.youtube.com/" target="_blank"><li>youtube</li></a>
@@ -315,7 +316,7 @@
         </div>
         <div class="footerBlock">
             <h3>nuestros servicios</h3>
-            <ul>
+            <ul class="list-group list-group-flush ia__footerBlock-list">
                 <a href="./index.html"><li>inicio</li></a>
                 <a href="./cheffs.html"><li>cheffs</li></a>
                 <a href="./nosotros.html"><li>nosotros</li></a>
@@ -335,6 +336,7 @@
                 <p>Tel. +55714568923</p>
             </div>
         </div>
+        <!--  -->
         <div class="copyright">
             <p><i class="fa-solid fa-copyright"></i> copyright Iván Darío Amarillo Lozada</p>
         </div>
