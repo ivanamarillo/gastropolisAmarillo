@@ -16,6 +16,9 @@ body {
     font-size:16px;
     margin:10px;
 }
+
+
+
 p{
     line-height: 1.8;
 }
@@ -29,9 +32,56 @@ h3 {
     padding-bottom:10px;
 }
 
+h1{
+    font-size:24px;
+    margin:0;
+    font-weight:bold;
+}
+
+
 /*-----------------
 HEADER
 -----------------*/
+header {
+    position:sticky;
+    top:0px;
+    background-color:white;
+    font-weight:bold;
+}
+
+.container-fluid a{
+    display:flex;
+    align-items:center;
+}
+
+.container-fluid ul li{
+    list-style:none;
+}
+
+.container-fluid .ia__navMenu{
+    justify-content: flex-end;
+}
+
+.ia__navMenu ul{
+    display:flex;
+    margin:0;
+}
+
+.ia__navMenu li{
+    padding:0 20px;
+    font-size:24px;
+}
+
+.ia__blue {
+    color:rgb(0, 153, 187);
+}
+
+.ia__headerHr {
+    margin-top:10px;
+    border:1px solid black;
+}
+
+/*-----------------
 header {
     position:sticky;
     top:0px;
@@ -77,6 +127,7 @@ nav {
     background-color:black;
     grid-column-end:span 2;
 }
+------------------*/
 
 /*-----------------
 MAIN
