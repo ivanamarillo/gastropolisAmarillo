@@ -323,7 +323,7 @@ article p{
     padding:20px;
 }
 
-.card {
+.ia__card {
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -451,6 +451,10 @@ input[type="reset"] {
     margin:30px;
     display:inline-block;
     margin:30px;
+    text-align:center;
+}
+
+.sedes p{
     text-align:center;
 }
 
