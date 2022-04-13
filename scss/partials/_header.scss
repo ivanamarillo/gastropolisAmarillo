@@ -19,7 +19,7 @@ header {
         }
     }
     a{
-        @extend %flex_center;
+        @include flexStructure(flex, center);
     }
     ul{
         li{

@@ -14,11 +14,10 @@
 }
 
 .fotosReceta{
-    @extend %flex_between;
+    @include flexStructure(flex, space-between);
     grid-column:span 4;
     img{
-        width:200px;
-        height:120px;
+        @include dimensions(200px, 120px);
         border-radius:3%;
         margin:10px 20px 10px 0;
     }
@@ -29,8 +28,7 @@
 }
 
 video {
-   width:600px;
-   height:360px;
+    @include dimensions(600px, 360px);
 }
 
 .ingredientes{

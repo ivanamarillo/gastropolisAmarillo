@@ -18,16 +18,14 @@
 
 @media screen and (max-width:1300px){
     video, .video{
-        width:500px;
-        height:250px;
+        @include dimensions(500px, 250px);
     }
 }
 
 @media screen and (max-width:1130px){
     .dishes{
         img{
-            width:150px;
-            height:97.5px;
+            @include dimensions(150px, 97.5px);
         }
     }
 
@@ -64,8 +62,7 @@
 
     .sedes{
         img{
-            width:300px;
-            height:180px;
+            @include dimensions(300px, 180px);
         }
     }
 
@@ -86,8 +83,7 @@
         justify-content: center;
         grid-row:2;
         img{
-            width:600px;
-            height:360px;
+            @include dimensions(600px, 360px);
         }
     }
 
@@ -98,8 +94,7 @@
 
     .sedes{
         img{
-            width:250px;
-            height:150px;
+            @include dimensions(250px, 150px);
         }
     }
 
@@ -117,8 +112,7 @@
 @media screen and (max-width:720px){
     .mainFoto{
         img{
-            width:400px;
-            height:240px;
+            @include dimensions(400px, 240px);
         }
     }
 
@@ -147,16 +141,14 @@
     }
     
     iframe{
-        width:300px;
-        height:300px;
+        @include dimensions(300px, 300px);
     }
 
     .sedes{
         display:block;
         text-align:center;
         img{
-            width: 350px;
-            height:207px;
+            @include dimensions(350px, 207px);
         }
     }
     .iconMagenta{
@@ -166,8 +158,7 @@
 
 @media screen and (max-width:600px){
     video, .video{
-        width:300px;
-        height:150px;
+        @include dimensions(300px, 150px);
     }
     .cheffInfo{
         grid-column:span 4;
@@ -194,8 +185,7 @@
             align-items:center;
             img{
                 margin-top:10px;
-                width:400px;
-                height:240px;
+                @include dimensions(400px, 240px);
             }
         }
     }
@@ -204,8 +194,7 @@
 @media screen and (max-width:510px){
     .mainFoto, .dishes div{
         img{
-            width:300px;
-            height:180px;
+            @include dimensions(300px, 180px);
         }
     }
 
@@ -221,8 +210,7 @@
 
     .sedes{
         img{
-            width: 300px;
-            height:180px;
+            @include dimensions(300px, 180px);
         }
     }
 }
@@ -230,21 +218,18 @@
 @media screen and (max-width:410px){
     .mainFoto, .dishes div, .sedes{
         img{
-            width:200px;
-            height:120px;
+            @include dimensions(200px, 120px);
         }
     }
 
     iframe{
-        width:200px;
-        height:200px;
+        @include dimensions(200px, 200px);
     }
     .copyright{
         font-size:10px;
     }
 
     .video, video{
-        width:200px;
-        height:150px;
+        @include dimensions(200px, 150px);
     }
 }

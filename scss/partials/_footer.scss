@@ -14,7 +14,7 @@ footer {
 }
 
 .footerBlock {
-    @extend %flex_start;
+    @include flexStructure(flex, flex-start);
     flex-direction: column;
     padding:20px;
     li{

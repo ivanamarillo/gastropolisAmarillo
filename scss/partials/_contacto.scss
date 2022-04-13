@@ -1,10 +1,10 @@
 .formMap{
-    @extend %flex_evenly;
+    @include flexStructure(flex, space-evenly);
     padding:20px;
 }
 
 form {
-    @extend %flex_between;
+    @include flexStructure(flex, space-between);
     flex-direction:column;
     padding-right:50px;
 }
@@ -57,8 +57,7 @@ input[type="reset"] {
 
 .sedes{
     img{
-        width: 350px;
-        height:207px;
+        @include dimensions(350px, 207px);
         border-radius:3%;
     }
 }

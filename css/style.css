@@ -4,50 +4,6 @@ h3, h2, h1 {
   margin: 0;
 }
 
-.ia__containerRestaurant-col1, .ia__containerRestaurant-col2, .ia__containerRestaurant-recomendados div, .ia__containerCheff, .cardSection, .fotosReceta, form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.ia__cheffsCards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.container-fluid a, .cheffFoto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.formMap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.footerBlock {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
 input[type="submit"], input[type="reset"] {
   color: white;
   border-radius: 10%;
@@ -111,6 +67,15 @@ header {
   font-size: 24px;
 }
 
+.container-fluid a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .container-fluid ul li {
   list-style: none;
 }
@@ -142,6 +107,12 @@ main {
 }
 
 .ia__containerRestaurant-col1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -164,6 +135,12 @@ main {
 }
 
 .ia__containerRestaurant-col2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -171,14 +148,20 @@ main {
 }
 
 .ia__containerRestaurant-recomendados div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
 .ia__containerRestaurant-recomendados div img {
-  border-radius: 5%;
   width: 150px;
   height: 100px;
+  border-radius: 5%;
   margin: 5px;
 }
 
@@ -218,6 +201,12 @@ main {
   margin: 10px 20px;
   padding: 20px 20px;
   border-radius: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -244,6 +233,11 @@ main {
 }
 
 .ia__cheffsCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -253,10 +247,16 @@ main {
 }
 
 .cheffFoto {
-  grid-row: span 2;
-  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 210px;
   height: 290px;
+  grid-row: span 2;
+  padding: 10px;
 }
 
 .cheffFoto img {
@@ -292,6 +292,12 @@ article p {
 }
 
 .cardSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 20px;
 }
 
@@ -340,6 +346,12 @@ article p {
 }
 
 .fotosReceta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   grid-column: span 4;
 }
 
@@ -371,10 +383,22 @@ video {
 }
 
 .formMap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   padding: 20px;
 }
 
 form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -459,6 +483,12 @@ footer a {
 }
 
 .footerBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -487,9 +517,6 @@ footer a {
   margin: 10px 0 0 0;
 }
 
-/*-----------------
-MEDIA QUERIES
------------------*/
 @media screen and (max-width: 1191px) {
   .ia__containerRestaurant-recomendados img:last-child, .ia__containerRestaurant-recomendados img:first-child {
     display: none;
@@ -508,7 +535,6 @@ MEDIA QUERIES
   }
 }
 
-/* nuevos hasta aqui */
 @media screen and (max-width: 1300px) {
   video, .video {
     width: 500px;
@@ -550,10 +576,7 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 890px) {
-  .dishes img:last-child {
-    display: none;
-  }
-  .fotosReceta img:last-child {
+  .dishes img:last-child, .fotosReceta img:last-child {
     display: none;
   }
   .sedes img {
@@ -650,16 +673,14 @@ MEDIA QUERIES
   .cheffFoto {
     -ms-grid-column: 2;
         grid-column-start: 2;
+    -ms-grid-row: 2;
+    grid-row: 2;
   }
   .rankingSocial div:last-child {
     display: none;
   }
   .reviews {
     padding: 10px 0;
-  }
-  .cheffFoto {
-    -ms-grid-row: 2;
-    grid-row: 2;
   }
   .dishes div {
     -webkit-box-orient: vertical;
@@ -695,11 +716,7 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 410px) {
-  .mainFoto img, .dishes div img {
-    width: 200px;
-    height: 120px;
-  }
-  .sedes img {
+  .mainFoto img, .dishes div img, .sedes img {
     width: 200px;
     height: 120px;
   }

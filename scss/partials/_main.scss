@@ -14,7 +14,7 @@ main {
     border-radius:2%;
 
     &-col1{
-        @extend %flex_between;
+        @include flexStructure(flex, space-between);
         flex-direction: column;
         font-size:20px;
         div{
@@ -34,18 +34,17 @@ main {
     }
 
     &-col2{
-        @extend %flex_between;
+        @include flexStructure(flex, space-between);
         flex-direction: column;
     }
 
     &-recomendados{
         div{
-            @extend %flex_between;
+            @include flexStructure(flex, space-between);
             flex-wrap:wrap;
             img{
+                @include dimensions(150px, 100px);
                 border-radius:5%;
-                width:150px;
-                height:100px;
                 margin:5px;
             }
         }

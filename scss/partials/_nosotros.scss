@@ -12,7 +12,7 @@ article {
 }
 
 .cardSection {
-    @extend %flex_between;
+    @include flexStructure(flex, space-between);
     padding:20px;
 }
 
