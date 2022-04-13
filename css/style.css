@@ -1,19 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-/*-----------------
-VARIABLES
------------------*/
 h3, h2, h1 {
   font-weight: bold;
   margin: 0;
 }
 
-.ia__containerRestaurant-col1, .ia__containerRestaurant-col2, .ia__containerRestaurant-recomendados div, .ia__containerCheff {
+.ia__containerRestaurant-col1, .ia__containerRestaurant-col2, .ia__containerRestaurant-recomendados div, .ia__containerCheff, .cardSection, .fotosReceta, form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.ia__cheffsCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.container-fluid a, .cheffFoto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formMap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footerBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+input[type="submit"], input[type="reset"] {
+  color: white;
+  border-radius: 10%;
+  padding: 5px 20px;
 }
 
 * {
@@ -71,15 +109,6 @@ header {
 .container-fluid .ia__navMenu ul li {
   padding: 0 20px;
   font-size: 24px;
-}
-
-.container-fluid a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .container-fluid ul li {
@@ -182,12 +211,6 @@ main {
   color: #0a64ff;
 }
 
-.ia__containerCheff-row {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .ia__containerCheff {
   background-color: whitesmoke;
   -webkit-box-shadow: 3px 3px #c8c8c8;
@@ -214,12 +237,13 @@ main {
   margin-bottom: 10px;
 }
 
+.ia__containerCheff-row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .ia__cheffsCards {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -230,12 +254,6 @@ main {
 
 .cheffFoto {
   grid-row: span 2;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   padding: 10px;
   width: 210px;
   height: 290px;
@@ -260,7 +278,6 @@ main {
   color: #cacaca;
 }
 
-/* Nosotros */
 article {
   text-align: justify;
   padding: 10px 0;
@@ -275,12 +292,6 @@ article p {
 }
 
 .cardSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding: 20px;
 }
 
@@ -309,7 +320,6 @@ article p {
   text-align: center;
 }
 
-/* Recetas */
 .receta {
   display: -ms-grid;
   display: grid;
@@ -331,12 +341,6 @@ article p {
 
 .fotosReceta {
   grid-column: span 4;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .fotosReceta img {
@@ -366,28 +370,15 @@ video {
   margin: 10px 0 40px;
 }
 
-/* Contacto */
 .formMap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   padding: 20px;
 }
 
 form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding-right: 50px;
 }
 
@@ -406,17 +397,11 @@ input, textarea {
 
 input[type="submit"] {
   background-color: #0099bb;
-  color: white;
-  border-radius: 10%;
-  padding: 5px 20px;
 }
 
 input[type="reset"] {
   background-color: #c8c8c8;
-  color: white;
   border: 1px solid #c8c8c8;
-  border-radius: 10%;
-  padding: 5px 20px;
 }
 
 .cardContact {
@@ -434,14 +419,14 @@ input[type="reset"] {
   grid-column: span 2;
 }
 
+.sedes p {
+  text-align: center;
+}
+
 .sedeMedellin, .sedeBogota {
   margin: 30px;
   display: inline-block;
   margin: 30px;
-  text-align: center;
-}
-
-.sedes p {
   text-align: center;
 }
 
@@ -457,9 +442,6 @@ input[type="reset"] {
   margin-left: 0px;
 }
 
-/*-----------------
-FOOTER
------------------*/
 footer {
   display: -ms-grid;
   display: grid;
@@ -471,13 +453,12 @@ footer {
   color: white;
 }
 
+footer a {
+  color: white;
+  font-size: 16px;
+}
+
 .footerBlock {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -498,11 +479,6 @@ footer {
   padding: 20px 0;
   text-align: center;
   grid-column: span 3;
-}
-
-footer a {
-  color: white;
-  font-size: 16px;
 }
 
 .footerHr {

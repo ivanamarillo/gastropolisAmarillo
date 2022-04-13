@@ -7,3 +7,29 @@
     display:flex;
     justify-content:space-between;
 }
+
+%flex_around{
+    display:flex;
+    justify-content:space-around;
+}
+
+%flex_center{
+    display:flex;
+    justify-content:center;
+}
+
+%flex_evenly{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+%flex_start{
+    display:flex;
+    justify-content:flex-start;
+}
+
+%button_style{
+    color:$color-background;
+    border-radius: 10%;
+    padding:5px 20px;
+}

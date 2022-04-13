@@ -1,14 +1,11 @@
-/* Contacto */
 .formMap{
-    display:flex;
-    justify-content:space-evenly;
+    @extend %flex_evenly;
     padding:20px;
 }
 
 form {
-    display:flex;
+    @extend %flex_between;
     flex-direction:column;
-    justify-content:space-between;
     padding-right:50px;
 }
 
@@ -26,18 +23,14 @@ input, textarea{
 }
 
 input[type="submit"] {
+    @extend %button_style;
     background-color: $color-brand;
-    color:$color-background;
-    border-radius: 10%;
-    padding:5px 20px;
 }
 
 input[type="reset"] {
-    background-color: $color-bg-grey;
-    color:$color-background;
+    @extend %button_style;
+    background-color:$color-bg-grey;
     border:1px solid $color-bg-grey;
-    border-radius: 10%;
-    padding:5px 20px;
 }
 
 .cardContact {
@@ -47,11 +40,11 @@ input[type="reset"] {
 .sedes{
     display:grid;
     grid-template-columns:1fr 1fr;
-}
-
-.sedes{
     h2{
         grid-column:span 2;
+    }
+    p{
+        text-align:center;
     }
 }
 
@@ -60,12 +53,6 @@ input[type="reset"] {
     display:inline-block;
     margin:30px;
     text-align:center;
-}
-
-.sedes{
-    p{
-        text-align:center;
-    }
 }
 
 .sedes{

@@ -19,8 +19,7 @@ header {
         }
     }
     a{
-        display:flex;
-        align-items:center;
+        @extend %flex_center;
     }
     ul{
         li{

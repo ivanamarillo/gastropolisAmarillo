@@ -1,6 +1,3 @@
-/*-----------------
-FOOTER
------------------*/
 footer {
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
@@ -9,16 +6,17 @@ footer {
     background-color:$color-brand;
     padding:0px 20px;
     color:$color-background;
+
+    a{
+        color:$color-background;
+        font-size:16px;
+    }
 }
 
 .footerBlock {
-    display:flex;
-    justify-content:flex-start;
+    @extend %flex_start;
     flex-direction: column;
     padding:20px;
-}
-
-.footerBlock{
     li{
         padding:10px 0;
         list-style:none;
@@ -33,13 +31,6 @@ footer {
     padding:20px 0;
     text-align:center;
     grid-column:span 3;
-}
-
-footer{
-    a{
-        color:$color-background;
-        font-size:16px;
-    }
 }
 
 .footerHr {

@@ -1,7 +1,3 @@
-.ia__containerCheff-row{
-    justify-content: center;
-}
-
 .ia__containerCheff{
     background-color: $color-bg-grey-white;
     box-shadow:3px 3px $color-bg-grey;
@@ -10,9 +6,6 @@
     border-radius:2%;
     @extend %flex_between;
     flex-direction: column;
-}
-
-.ia__containerCheff{
     img{
         width:80%;
         height:56%;
@@ -22,11 +15,13 @@
     img, div{
         margin-bottom:10px;
     }
+    &-row{
+        justify-content: center;
+    }
 }
 
 .ia__cheffsCards{
-    display:flex;
-    justify-content:space-around;
+    @extend %flex_around;
     flex-wrap:wrap;
 }
 
@@ -37,19 +32,16 @@
 }
 
 .cheffFoto {
+    @extend %flex_center;
     grid-row:span 2;
-    display:flex;
-    justify-content:center;
     padding:10px;
     width:210px;
     height:290px;
-}
-
-.cheffFoto{
     img{
         border-radius:3%;
     }
 }
+
 
 .div1 {
     display:inline-block;
