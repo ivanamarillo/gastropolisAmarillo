@@ -1,0 +1,276 @@
+/*-----------------
+MEDIA QUERIES
+-----------------*/
+@media screen and (max-width:1191px){
+    .ia__containerRestaurant-recomendados img:last-child, .ia__containerRestaurant-recomendados img:first-child{
+        display:none;
+    }
+}
+
+@media screen and (max-width:767px){
+    .ia__containerRestaurant-col2{
+        order:-1;
+        margin-bottom:20px;
+    }
+
+    .ia__containerRestaurant-recomendados{
+        display:none;
+    }
+}
+/* nuevos hasta aqui */
+
+@media screen and (max-width:1300px){
+    video, .video{
+        width:500px;
+        height:250px;
+    }
+}
+
+@media screen and (max-width:1130px){
+    .dishes{
+        img{
+            width:150px;
+            height:97.5px;
+        }
+    }
+
+    .mainFoto {
+        grid-row:1;
+    }
+
+    .rankingSocial{
+        grid-column:span 5;
+    }
+}
+
+@media screen and (max-width:1000px){
+    header{
+        grid-template-columns:10% 90%;
+    }
+}
+
+@media screen and (max-width:991px){
+    .ia__navMenu{
+        ul{
+            flex-direction: column;
+            align-items:flex-end;
+        }
+    }
+}
+
+@media screen and (max-width:890px){
+    .dishes{
+        img:last-child{
+            display:none;
+        }
+    }
+
+    .fotosReceta{
+        img:last-child{
+            display:none;
+        }
+    }
+
+    .sedes{
+        img{
+            width:300px;
+            height:180px;
+        }
+    }
+
+    .sedeFooter{
+        font-size:10px;
+    }
+}
+
+@media screen and (max-width:782px){
+    header{
+        nav{
+            font-size:20px;
+        }
+    }
+    
+    .mainFoto{
+        grid-column:span 4;
+        justify-content: center;
+        grid-row:2;
+    }
+
+    .mainFoto{
+        img{
+            width:600px;
+            height:360px;
+        }
+    }
+
+    .restaurantInfo{
+        grid-column:span 4;
+        grid-row:1;
+    }
+
+    .sedes{
+        img{
+            width:250px;
+            height:150px;
+        }
+    }
+
+    .dishes{
+        img:nth-child(4){
+            display:none;
+        }
+    }
+
+    .textMagenta{
+        display:none;
+    }
+}
+
+@media screen and (max-width:720px){
+    .mainFoto{
+        img{
+            width:400px;
+            height:240px;
+        }
+    }
+
+    video, .video{
+        grid-column-start:2;
+    }
+
+    .ingredientes{
+        display:none;
+    }
+
+    .fotosReceta{
+        display:none;
+    }
+}
+
+@media screen and (max-width:685px){
+    header{
+        nav{
+            font-size:15px;
+        }
+    }
+
+    .formMap{
+        display:block;
+    }
+    
+    iframe{
+        width:300px;
+        height:300px;
+    }
+
+    .sedes{
+        display:block;
+        text-align:center;
+    }
+    
+    .sedes{
+        img{
+            width: 350px;
+            height:207px;
+        }
+    }
+    .iconMagenta{
+        font-size:50px;
+    }    
+}
+
+@media screen and (max-width:600px){
+    video, .video{
+        width:300px;
+        height:150px;
+    }
+    .cheffInfo{
+        grid-column:span 4;
+    }
+
+    .cheffFoto{
+        grid-column-start:2;
+    }
+
+    .rankingSocial{
+        div:last-child{
+            display:none;
+        }
+    }
+
+    .reviews{
+        padding:10px 0;
+    }
+
+    .cheffFoto{
+        grid-row:2;
+    }
+
+    .dishes{
+        div{
+            flex-direction:column;
+            align-items:center;
+        }
+    }
+
+    .dishes{
+        div{
+            img{
+                margin-top:10px;
+                width:400px;
+                height:240px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:510px){
+    .mainFoto img, .dishes div img{
+        width:300px;
+        height:180px;
+    }
+
+    .restaurant{
+        i{
+            font-size:15px;
+        }
+    }
+    
+    .footerBlock{
+        grid-column:span 3;
+    }
+
+    .sedes{
+        img{
+            width: 300px;
+            height:180px;
+        }
+    }
+}
+
+@media screen and (max-width:410px){
+    .mainFoto img, .dishes div img{
+        width:200px;
+        height:120px;
+    }
+
+    .sedes{
+        img{
+            width: 200px;
+            height:120px;
+        }
+    }
+
+    iframe{
+        width:200px;
+        height:200px;
+    }
+    .copyright{
+        font-size:10px;
+    }
+
+    .video, video{
+        width:200px;
+        height:150px;
+    }
+}

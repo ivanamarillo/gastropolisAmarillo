@@ -1,0 +1,49 @@
+/*-----------------
+FOOTER
+-----------------*/
+footer {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+
+    margin:0 20px;
+    background-color:$color-brand;
+    padding:0px 20px;
+    color:$color-background;
+}
+
+.footerBlock {
+    display:flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    padding:20px;
+}
+
+.footerBlock{
+    li{
+        padding:10px 0;
+        list-style:none;
+    }
+}
+
+.sedeFooter {
+    padding:10px 0;
+}
+
+.copyright{
+    padding:20px 0;
+    text-align:center;
+    grid-column:span 3;
+}
+
+footer{
+    a{
+        color:$color-background;
+        font-size:16px;
+    }
+}
+
+.footerHr {
+    border:2px solid $color-golden;
+    background-color: $color-golden;
+    margin:10px 0 0 0;
+}
