@@ -1,0 +1,105 @@
+/*-----------------
+MAIN
+-----------------*/
+main {
+    padding:0px 20px;
+}
+
+/* Carousel */
+.ia__carousel{
+    overflow:hidden;
+}
+
+/* Restaurants */
+.ia__containerRestaurant{
+    background-color: $color-bg-grey-white;
+    box-shadow:3px 3px $color-bg-grey;
+    margin-top:20px;
+    padding:20px 20px;
+    border-radius:2%;
+}
+
+.ia__containerRestaurant-col1{
+    font-size:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.ia__containerRestaurant-col1{
+    div{
+        padding-top:20px;
+    }
+}
+
+.ia__containerRestaurant-col1{
+    img{
+        border-radius: 5%;
+    }
+}
+
+.ia__containerRestaurant-reviews{
+    p{
+        display:inline-block;
+        font-weight:bold;
+        color:$color-reviews;
+    }
+}
+
+.ia__containerRestaurant-col2{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.ia__containerRestaurant-recomendados{
+    div{
+        display:flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+    }
+}
+
+.ia__containerRestaurant-recomendados{
+    div{
+        img{
+            border-radius:5%;
+            width:150px;
+            height:100px;
+            margin:5px;
+        }
+    }
+}
+
+.fa-star, .fa-star-half-stroke {
+    color:$icon-star-full;
+}
+
+.noStar {
+    color:transparent;
+}
+
+.fa-dollar-sign{
+    font-weight:bold;
+}
+
+.full {
+    color:$color-brand;
+}
+
+.empty {
+    color:$color-inactive;
+}
+
+.fa-link{
+    color:$color-web;
+}
+
+.fa-instagram {
+    color:$color-instagram;
+    font-weight: bold;
+}
+
+.fa-facebook {
+    color:$color-fb;
+}

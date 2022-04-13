@@ -1,0 +1,71 @@
+/* Cheffs */
+.ia__containerCheff-row{
+    justify-content: center;
+}
+
+.ia__containerCheff{
+    background-color: $color-bg-grey-white;
+    box-shadow:3px 3px $color-bg-grey;
+    margin:10px 20px;
+    padding:20px 20px;
+    border-radius:2%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.ia__containerCheff{
+    img{
+        width:80%;
+        height:56%;
+        align-self:center;
+        border-radius: 3%;
+        margin-bottom:20px;
+    }
+}
+
+.ia__containerCheff img, .ia__containerCheff div{
+    margin-bottom:10px;
+}
+
+.ia__cheffsCards{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.ia__cardBody{
+    ul{
+        padding:0;
+    }
+}
+
+.cheffFoto {
+    grid-row:span 2;
+    display:flex;
+    justify-content:center;
+    padding:10px;
+    width:210px;
+    height:290px;
+}
+
+.cheffFoto{
+    img{
+        border-radius:3%;
+    }
+}
+
+.div1 {
+    display:inline-block;
+    margin-right:40px;
+}
+
+.active {
+    color:$color-basic;
+    font-weight:bold;
+    list-style:none;
+}
+
+.inactive {
+    color:$color-inactive;
+}

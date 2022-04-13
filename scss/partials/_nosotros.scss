@@ -1,0 +1,41 @@
+/* Nosotros */
+article {
+    text-align:justify;
+    padding:10px 0;
+}
+
+article{
+    h2{
+        padding-bottom:10px;
+    }
+}
+
+article{
+    p{
+        padding:10px 0px;
+    }
+}
+
+.cardSection {
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+
+.ia__card {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:10px;
+}
+
+.iconMagenta {
+    font-size:100px;
+    color:$icon-magenta;
+    padding-bottom:10px;
+}
+
+.textMagenta{
+    color:$color-brand;
+    text-align:center;
+}

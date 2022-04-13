@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color:$color-background;
+    color:$color-basic;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+    font-size:16px;
+    margin:10px;
+}
+
+p{
+    line-height: 1.8;
+    margin:0;
+    text-align:justify;
+}
+
+a {
+    color:$color-basic;
+    text-decoration:none;
+}
+
+h3, h2{
+    font-weight:bold;
+    margin:0;
+}
+
+h1{
+    font-size:24px;
+    margin:0;
+    font-weight:bold;
+}
