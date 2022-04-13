@@ -20,6 +20,7 @@ header {
     }
     a{
         @include flexStructure(flex, center);
+        align-items:center;
     }
     ul{
         li{
