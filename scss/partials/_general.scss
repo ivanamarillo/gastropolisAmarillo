@@ -23,13 +23,16 @@ a {
     text-decoration:none;
 }
 
-h3, h2{
-    font-weight:bold;
-    margin:0;
+h3{
+    @extend %bold_no_margin;
 }
+
+h2{
+    @extend %bold_no_margin;
+}
+
 
 h1{
     font-size:24px;
-    margin:0;
-    font-weight:bold;
+    @extend %bold_no_margin;
 }

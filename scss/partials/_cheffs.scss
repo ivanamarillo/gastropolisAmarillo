@@ -1,4 +1,3 @@
-/* Cheffs */
 .ia__containerCheff-row{
     justify-content: center;
 }
@@ -9,9 +8,8 @@
     margin:10px 20px;
     padding:20px 20px;
     border-radius:2%;
-    display: flex;
+    @extend %flex_between;
     flex-direction: column;
-    justify-content:space-between;
 }
 
 .ia__containerCheff{
@@ -20,12 +18,10 @@
         height:56%;
         align-self:center;
         border-radius: 3%;
-        margin-bottom:20px;
     }
-}
-
-.ia__containerCheff img, .ia__containerCheff div{
-    margin-bottom:10px;
+    img, div{
+        margin-bottom:10px;
+    }
 }
 
 .ia__cheffsCards{
