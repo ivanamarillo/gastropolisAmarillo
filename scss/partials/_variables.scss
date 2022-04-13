@@ -1,3 +1,4 @@
+//variables
 $color-basic: black;
 $color-background:white;
 $color-brand:rgb(0, 153, 187);
@@ -11,3 +12,40 @@ $color-web:rgb(0,0,255);
 $color-instagram:rgb(255,0,255);
 $color-fb:rgb(10,100,255);
 $color-golden:goldenrod;
+
+//extend 
+%bold_no_margin{
+    font-weight:bold;
+    margin:0;
+}
+
+%flex_between{
+    display:flex;
+    justify-content:space-between;
+}
+
+%flex_around{
+    display:flex;
+    justify-content:space-around;
+}
+
+%flex_center{
+    display:flex;
+    justify-content:center;
+}
+
+%flex_evenly{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+%flex_start{
+    display:flex;
+    justify-content:flex-start;
+}
+
+%button_style{
+    color:$color-background;
+    border-radius: 10%;
+    padding:5px 20px;
+}

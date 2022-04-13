@@ -1,6 +1,3 @@
-/*-----------------
-MEDIA QUERIES
------------------*/
 @media screen and (max-width:1191px){
     .ia__containerRestaurant-recomendados img:last-child, .ia__containerRestaurant-recomendados img:first-child{
         display:none;
@@ -8,16 +5,16 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width:767px){
-    .ia__containerRestaurant-col2{
-        order:-1;
-        margin-bottom:20px;
-    }
-
-    .ia__containerRestaurant-recomendados{
-        display:none;
+    .ia__containerRestaurant{
+        &-col2{
+            order:-1;
+            margin-bottom:20px;
+        }
+        &-recomendados{
+            display:none;
+        }
     }
 }
-/* nuevos hasta aqui */
 
 @media screen and (max-width:1300px){
     video, .video{
@@ -59,13 +56,7 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width:890px){
-    .dishes{
-        img:last-child{
-            display:none;
-        }
-    }
-
-    .fotosReceta{
+    .dishes, .fotosReceta{
         img:last-child{
             display:none;
         }
@@ -94,9 +85,6 @@ MEDIA QUERIES
         grid-column:span 4;
         justify-content: center;
         grid-row:2;
-    }
-
-    .mainFoto{
         img{
             width:600px;
             height:360px;
@@ -166,9 +154,6 @@ MEDIA QUERIES
     .sedes{
         display:block;
         text-align:center;
-    }
-    
-    .sedes{
         img{
             width: 350px;
             height:207px;
@@ -190,6 +175,7 @@ MEDIA QUERIES
 
     .cheffFoto{
         grid-column-start:2;
+        grid-row:2;
     }
 
     .rankingSocial{
@@ -202,19 +188,10 @@ MEDIA QUERIES
         padding:10px 0;
     }
 
-    .cheffFoto{
-        grid-row:2;
-    }
-
     .dishes{
         div{
             flex-direction:column;
             align-items:center;
-        }
-    }
-
-    .dishes{
-        div{
             img{
                 margin-top:10px;
                 width:400px;
@@ -225,9 +202,11 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width:510px){
-    .mainFoto img, .dishes div img{
-        width:300px;
-        height:180px;
+    .mainFoto, .dishes div{
+        img{
+            width:300px;
+            height:180px;
+        }
     }
 
     .restaurant{
@@ -249,14 +228,9 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width:410px){
-    .mainFoto img, .dishes div img{
-        width:200px;
-        height:120px;
-    }
-
-    .sedes{
+    .mainFoto, .dishes div, .sedes{
         img{
-            width: 200px;
+            width:200px;
             height:120px;
         }
     }
